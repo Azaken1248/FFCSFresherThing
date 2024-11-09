@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ist Year FFCS Guide For Second Sem (CSE Core)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+            overflow: scroll;
+        }
+
+        h1 {
+            color: #ff6188; 
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 950px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ff6188;
+            border-radius: 5px;
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+            outline: none;
+        }
+
+        .table-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 950px;
+        }
+
+        table {
+            width: 110%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background-color: #2d2d2d;
+            color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        table:hover {
+            transform: scale(1.02);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #383838;
+        }
+
+        th {
+            background-color: #ff6188;
+            color: #1e1e1e;
+            font-weight: bold;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        td {
+            color: #a9b7c6;
+        }
+
+        caption {
+            margin-bottom: 12px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ffd866;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            th, td {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 1em;
+            }
+
+            .search-container{
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Ist Year FFCS Guide For Second Sem (CSE Core)</h1>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search by Course Code, Title, Slot, or Professor...">
+    </div>
+
+    <div class="table-container">
+        <!-- Morning Theory Table -->
+        <table>
+            <caption>Morning Theory</caption>
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Title</th>
+                    <th>Slot</th>
+                    <th>Recommended Prof</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>BMAT102L</td><td>Differential Equations Theory</td><td>C1</td><td>Abhiskek Kumar Singh/Prosenjit</td></tr>
+                <tr><td>BCHY101L</td><td>Enginering Chemistry Theory</td><td>A1</td><td>Lakoji</td></tr>
+                <tr><td>BCHY101P</td><td>Enginering Chemistry Lab</td><td>(Based On Prof)</td><td>Lakoji</td></tr>
+                <tr><td>BCSE102L</td><td>Structure and Object Programming Theory</td><td>E1</td><td>Sivakumar</td></tr>
+                <tr><td>BCSE102P</td><td>Structure and Object Programming Lab</td><td>(Based On Prof)</td><td>Sivakumar</td></tr>
+                <tr><td>BECE102L</td><td>Digital System Design Theory</td><td>B1</td><td>Prasanna Kumar S/Saurabh Paul</td></tr>
+                <tr><td>BECE102P</td><td>Digital System Design Lab</td><td>(Based On Prof)</td><td>Prasanna Kumar S/Saurabh Paul</td></tr>
+                <tr><td>BSTS101P</td><td>Quantitative Skill Practice</td><td>D1</td><td>FACE(APT)</td></tr>
+                <tr><td>BENG102P</td><td>Technical Report Writing</td><td>(Based On Prof)</td><td>Alan G</td></tr>
+                <tr><td>BCHY102N/BHUM101N</td><td>Environmental Science/Ethics And Values (Choose 1)</td><td>(Online)</td><td>Samik Malla</td></tr>
+                <tr><td>BENG101L</td><td>Technical English Communications Theory</td><td>G1</td><td>Samik Malla</td></tr>
+                <tr><td>BENG101P</td><td>Technical English Communications Lab</td><td>(Based On Prof)</td><td>Samik Malla</td></tr>
+            </tbody>
+        </table>
+        <!-- Evening Theory Table -->
+        <table>
+            <caption>Evening Theory</caption>
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Title</th>
+                    <th>Slot</th>
+                    <th>Recommended Prof</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>BMAT102L</td><td>Differential Equations Theory</td><td>C2</td><td>Abhiskek Kumar Singh/Prosenjit</td></tr>
+                <tr><td>BCHY101L</td><td>Enginering Chemistry Theory</td><td>A2</td><td>Lakoji</td></tr>
+                <tr><td>BCHY101P</td><td>Engineering Chemistry Lab</td><td>(Based On Prof)</td><td>Lakoji</td></tr>
+                <tr><td>BCSE102L</td><td>Structure and Object Programming Theory</td><td>E2</td><td>Sivakumar</td></tr>
+                <tr><td>BCSE102P</td><td>Structure and Object Programming Lab</td><td>(Based On Prof)</td><td>Sivakumar</td></tr>
+                <tr><td>BECE102L</td><td>Digital System Design Theory</td><td>B2</td><td>Prasanna Kumar S/Saurabh Paul</td></tr>
+                <tr><td>BECE102P</td><td>Digital System Design Lab</td><td>(Based On Prof)</td><td>Prasanna Kumar S/Saurabh Paul</td></tr>
+                <tr><td>BSTS101P</td><td>Quantitative Skill Practice</td><td>D2</td><td>FACE(APT)</td></tr>
+                <tr><td>BENG102P</td><td>Technical Report Writing</td><td>(Based On Prof)</td><td>Alan G</td></tr>
+                <tr><td>BCHY102N/BHUM101N</td><td>Environmental Science/Ethics And Values (Choose 1)</td><td>(Online)</td><td>Samik Malla</td></tr>
+                <tr><td>BENG101L</td><td>Technical English Communications Theory</td><td>G2</td><td>Samik Malla</td></tr>
+                <tr><td>BENG101P</td><td>Technical English Communications Lab</td><td>(Based On Prof)</td><td>Samik Malla</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', function() {
+            const filter = searchInput.value.toLowerCase();
+            const tables = document.querySelectorAll('table tbody');
+
+            tables.forEach(tbody => {
+                const rows = tbody.getElementsByTagName('tr');
+                Array.from(rows).forEach(row => {
+                    const cells = row.getElementsByTagName('td');
+                    const text = Array.from(cells).map(cell => cell.textContent.toLowerCase()).join(' ');
+                    row.style.display = text.includes(filter) ? '' : 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
